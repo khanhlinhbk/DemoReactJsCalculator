@@ -42,7 +42,6 @@ class App extends Component {
 };
 // hàm đảo ngược
   oppos=()=>{
-    console.log(this.state.present.slice(0,1))
     let b= this.state.result.lastIndexOf(this.state.present);
     console.log(b);
     if(this.state.present.slice(0,1)==="-"){
