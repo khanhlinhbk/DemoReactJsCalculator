@@ -5,6 +5,7 @@ import "./EmojiResult.css";
 // npm i clipboard --save để lưu gt vào bảng tạm
  class EmojiResults extends Component {
   //lưu giá trị copy vào bảng tạm
+  //dùng lifecycle
     componentDidMount() {
         this.clipboard = new Clipboard(".copy-to-clipboard");
       }
